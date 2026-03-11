@@ -1,8 +1,8 @@
 <?php
 
-$orders = [5, 12, 0, 8, 15];
+$orders = ["5", "12", "0", "8", "15"];
 
-$itemPrice = 100;
+$itemPrice = "100";
 $discount = 0.1;
 
 function calculateTotal($quantity, $price, $discount) {
@@ -22,11 +22,13 @@ foreach ($orders as $qty) {
 
     $orderTotal = calculateTotal($qty, $itemPrice, $discount);
     echo " <li class='list-group-item'>";
-    if ($orderTotal == 0) {
-        echo "Invalid Order";
-    } else {
-        echo "Order: $qty - Total: $orderTotal";
-    }
+    // if-else method
+    echo $orderTotal <= 0 ? "Invalid Order" : "Order: $qty - Total: $orderTotal";
+    // if ($orderTotal == 0) {
+    //     echo "Invalid Order";
+    // } else {
+    //     echo "Order: $qty - Total: $orderTotal";
+    // }
     echo " </li>";
 
     $totalRevenue += $orderTotal;

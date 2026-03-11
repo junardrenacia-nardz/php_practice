@@ -1,0 +1,35 @@
+<?php
+$students = [
+    array("Juan", "Dela Cruz", "juan@email.com", "2005-03-15", "IT", "2026-03-10 09:15:22"),
+    array("Maria", "Santos", "maria@email.com", "2013-07-22", "CS", "2026-03-10 09:18:10"),
+    array("Carlos", "Reyes", "carlos@email.com", "2002-11-05", "IT", "2026-03-10 09:20:45"),
+    array("Ana", "Garcia", "ana@email.com", "2010-01-18", "CS", "2026-03-10 09:22:30"),
+    array("Miguel", "Lopez", "miguel@email.com", "2003-09-30", "IT", "2026-03-10 09:25:12"),
+    array("Sofia", "Mendoza", "sofia@email.com", "2002-05-14", "CS", "2026-03-10 09:27:50"),
+    array("Luis", "Torres", "luis@email.com", "2023-12-08", "IT", "2026-03-10 09:30:05"),
+    array("Isabella", "Ramos", "isabella@email.com", "2002-04-27", "CS", "2026-03-10 09:32:41"),
+    array("Marco", "Bautista", "marco@email.com", "2003-06-11", "IT", "2026-03-10 09:35:19"),
+    array("Elena", "Navarro", "elena@email.com", "2001-10-03", "CS", "2026-03-10 09:38:00"),
+
+    array("Daniel", "Cruz", "daniel@email.com", "2002-02-10", "IT", "2026-03-10 09:40:12"),
+    array("Patricia", "Villanueva", "patricia@email.com", "2001-06-18", "CS", "2026-03-10 09:42:55"),
+    array("Kevin", "Castro", "kevin@email.com", "2003-03-22", "IT", "2026-03-10 09:44:30"),
+    array("Angela", "Flores", "angela@email.com", "2002-12-09", "CS", "2026-03-10 09:46:11"),
+    array("Joshua", "Morales", "joshua@email.com", "2001-08-14", "IT", "2026-03-10 09:48:20"),
+    array("Nicole", "Aquino", "nicole@email.com", "2002-07-07", "CS", "2026-03-10 09:50:33"),
+    array("Mark", "Salazar", "mark@email.com", "2003-05-19", "IT", "2026-03-10 09:52:17"),
+    array("Camille", "Domingo", "camille@email.com", "2002-01-25", "CS", "2026-03-10 09:54:40"),
+    array("Adrian", "Padilla", "adrian@email.com", "2001-11-02", "IT", "2026-03-10 09:56:12"),
+    array("Beatrice", "Luna", "beatrice@email.com", "2002-09-16", "CS", "2026-03-10 09:58:29"),
+
+    array("Rafael", "Chavez", "rafael@email.com", "2003-04-03", "IT", "2026-03-10 10:00:05"),
+    array("Clara", "Soriano", "clara@email.com", "2001-03-28", "CS", "2026-03-10 10:02:14"),
+    array("Noel", "Ferrer", "noel@email.com", "2002-06-12", "IT", "2026-03-10 10:04:21"),
+    array("Jasmine", "Pascual", "jasmine@email.com", "2003-10-08", "CS", "2026-03-10 10:06:35"),
+    array("Victor", "Gonzales", "victor@email.com", "2002-08-30", "IT", "2026-03-10 10:08:44"),
+    array("Liza", "Valdez", "liza@email.com", "2001-09-21", "CS", "2026-03-10 10:10:19"),
+    array("Bryan", "Manalo", "bryan@email.com", "2003-07-13", "IT", "2026-03-10 10:12:07"),
+    array("Ella", "Rosales", "ella@email.com", "2002-02-27", "CS", "2026-03-10 10:14:33"),
+    array("Patrick", "Del Rosario", "patrick@email.com", "2001-04-17", "IT", "2026-03-10 10:16:50"),
+    array("Kim", "Espino", "kim@email.com", "2003-01-05", "CS", "2026-03-10 10:18:22")
+];
